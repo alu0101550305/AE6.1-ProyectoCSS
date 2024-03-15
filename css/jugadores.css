@@ -1,0 +1,146 @@
+header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.cs2{
+    margin-top: 25px;
+    font-size: 3rem;
+    float: right;
+}
+.letranaranja {
+    color: orange;
+}
+.logo > .logo_image{
+    margin: 15px 0px 15px 15px;
+    width: 200px;
+    height: 50px;
+}
+.main_menu > .main_menu_lista {
+    list-style: none;
+}
+.main_menu > .main_menu_lista > li > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    display: block;
+}
+
+.main_menu > .main_menu_lista a:hover {
+    background-color: orange;
+    padding: 28px;
+}
+
+.main_menu > .main_menu_lista {
+    display: flex;
+    column-gap: 2rem;
+}
+.main_text {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flow-root;
+}
+.main_text > h1{
+    float: none;
+    text-align: center;
+    padding: 20px 20px;
+    font-style: italic;
+    font-size: 4rem;
+}
+.main_content{
+    display: flex;
+}
+.main_content >.main_content_1 > .main_content_image {
+    float: left;
+    margin-right: 30px;
+}
+.main_content >.main_content_1 > .main_content_image > img{
+    width: 800px;
+    margin-left: 30px;
+}
+.main_content > .main_content_1 > .main_content_title {
+    margin-top: 40px;
+}
+.main_content > .main_content_1 > .main_content_title > .edad{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.main_content > .main_content_1 > .main_content_text{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.main_content > .main_content_1 > .main_content_text > p > .nickname{
+    font-weight: 700;
+}
+.main_content > .main_content_1 > .main_content_text > :nth-child(2n){
+    margin-top: 10px;
+}
+.main_content > .main_content_1 > .main_content_socials > a > img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 2px;
+}
+.main_content > .main_content_1 > .main_content_socials > .leermas{
+    font-size: 2rem;
+    padding: 10px 30px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 80% / 200%;
+    float: right;
+    margin: 20px 20px;
+}
+.main_content_2{
+    display: flex;
+}
+.main_content_2 > .main_content_2_image {
+    margin-right: 30px;
+}
+.main_content_2 >.main_content_2_image > img {
+    width: 800px;
+}
+.main_content_2 > .main_content_2_text{
+    font-size: 1.5rem;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.main_content_2 > .main_content_2_text  > .main_content_2_title > .edad{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.main_content_2 > .main_content_2_text > .main_content_2_title > h1 {
+    font-size: 2rem;
+}
+.main_content_2 > .main_content_2_text > p > .nickname{
+    font-weight: 700;
+}
+.main_content_2 > .main_content_2_text > :nth-child(3n){
+    margin-top: 15px;
+}
+.main_content_2 > .main_content_2_socials > a > img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 2px;
+}
+.main_content_2 > .main_content_2_text > .main_content_socials > a > img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 2px;
+}
+.main_content_2  > .main_content_2_text > .main_content_socials > .leermas{
+    font-size: 2rem;
+    padding: 10px 30px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 80% / 200%;
+    float: right;
+    margin: 20px 20px;
+}

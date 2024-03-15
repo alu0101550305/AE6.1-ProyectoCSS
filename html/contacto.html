@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mookup</title>
+    <link rel="stylesheet" href="../css/genericos.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../Imágenes/favicons/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo_image" src="../Imágenes/Valve logo.png">
+            <h1 class="cs2">CS<span class="letranaranja">2</span></h1> 
+        </div>
+        <div class="main_menu">
+            <ul class="main_menu_lista">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="pglmajor.html">PGL MAJOR 2024</a></li>
+                <li><a href="jugadores.html">TOP PLAYERS</a></li>
+                <li><a href="tienda.html">TIENDA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main_text">
+        <h1>CONTACTO</h1>
+    </div>
+    <div class="main_content">
+        <div class="main_content_text">
+            <h1>¿TIENES ALGUNA DUDA?</h1>
+            <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>El equipo de Xavi se mete en cuartos cuatro años después en una noche en la que pasó de la superioridad al sufrimiento, y de éste al éxtasis, y que consagró al joven Cubarsí, MVP del partido</p>
+            <p class="parrafo3">Email:</p>
+            <p>valve@valve.es</p>
+            <div class="main_content_socials">
+                <p>Redes Sociales:</p>
+                <img src="../Imágenes/sociales.png">
+            </div>
+        </div>
+        <form name="formulario" method="post">
+            <fieldset>
+                <p>
+                    <input type="text" name="Nombre" autocomplete="off" size="40"
+                        placeholder="Nombre:" required pattern="[A-Za-z]*" title="Solo admite letras">
+                </p>
+                <p>
+                    <input type="email" name="Email" autocomplete="off" placeholder="Correo (Correo@email.com)" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </p>
+                <p>
+                    <input type="number" name="Telefono" autocomplete="off" placeholder="TELÉFONO (+34 XXX XXX XXX)" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </p>
+                <p>
+                    <label for="Tema"></label>
+                    <select id="tema" name="Tema">
+                        <option value="tema">Tema</option>
+                        <option value="no hay mas">No hay más</option>
+                </p>
+                <p>
+                    <input type="text" name="Mensaje" autocomplete="off" placeholder="Mensaje">
+                </p>
+                <input type="checkbox" name="Condiciones" autocomplete="off">
+                <label for="Condiciones">Aceptar <a href="">condiciones</a></label>
+                <a href="">Enviar</a>
+            </fieldset>
+
+        </form>
+    </div>
+    
+</body>
+</html>

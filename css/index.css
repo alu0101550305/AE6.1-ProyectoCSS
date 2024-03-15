@@ -1,0 +1,94 @@
+header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+h1{
+    margin-top: 25px;
+    font-size: 3rem;
+    float: inline-end;
+   
+}
+.letranaranja {
+    color: orange;
+}
+.logo > .logo_image{
+    margin: 15px 0px 15px 15px;
+    width: 200px;
+    height: 50px;
+}
+.main_menu > .main_menu_lista {
+    list-style: none;
+}
+.main_menu > .main_menu_lista > li > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    display: block;
+}
+
+.main_menu > .main_menu_lista a:hover {
+    background-color: orange;
+    padding: 28px;
+}
+
+.main_menu > .main_menu_lista {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.main_content {
+    background-image: url(../Imágenes/pgl-major-cs2-logo.png);
+    margin: auto;
+    margin-top: 30px;
+    width: 1850px;
+    height: 700px;
+    border-top: solid gray 2px;
+}
+.main_content > .main_content_text {
+    font-size: 5rem;
+    padding-top: 300px;
+    margin-left: 30px;
+}
+.main_content > .main_content_text > span {
+    display: block;
+    color: white;
+}
+.second_content {
+    display: flow-root;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.second_content > .second_content_text{
+    width: 40%;
+    float: left;
+}
+.second_content > .second_content_text > p{
+    margin: 50px 0px 20px 0px;
+    font-size: 1.5rem;
+}
+.second_content > .second_content_text > a{
+    font-size: 2rem;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 45% / 200%;
+}
+.second_content > .second_content_images{
+    width: 60%;
+    float: right;
+}
+.second_content > .second_content_images > img{
+    width: 333px;
+    height: 222.39px;
+    float: right;
+    margin: 10px 10px;
+}
+

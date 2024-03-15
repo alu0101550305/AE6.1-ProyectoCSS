@@ -1,0 +1,77 @@
+header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.cs2{
+    margin-top: 25px;
+    font-size: 3rem;
+    float: right;
+}
+.letranaranja {
+    color: orange;
+}
+.logo > .logo_image{
+    margin: 15px 0px 15px 15px;
+    width: 200px;
+    height: 50px;
+}
+.main_menu > .main_menu_lista {
+    list-style: none;
+}
+.main_menu > .main_menu_lista > li > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    display: block;
+}
+
+.main_menu > .main_menu_lista a:hover {
+    background-color: orange;
+    padding: 28px;
+}
+
+.main_menu > .main_menu_lista {
+    display: flex;
+    column-gap: 2rem;
+}
+.main_text {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flow-root;
+}
+.main_text > h1{
+    float: none;
+    text-align: center;
+    padding: 20px 20px;
+    font-style: italic;
+    font-size: 4rem;
+}
+.main_content > .main_content_images{
+    display: flex;
+    justify-content: center;
+}
+.main_content > .main_content_images > .articulos >img {
+    width: 450px;
+}
+.main_content > .main_content_images > .articulos > p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.main_content > .main_content_images > .articulos > p >a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+.main_content > .main_content_images > .articulos > p >a:hover{
+    background-color: orange;
+}

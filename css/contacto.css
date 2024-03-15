@@ -1,0 +1,143 @@
+header{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.cs2{
+    margin-top: 25px;
+    font-size: 3rem;
+    float: right;
+}
+.letranaranja {
+    color: orange;
+}
+.logo > .logo_image{
+    margin: 15px 0px 15px 15px;
+    width: 200px;
+    height: 50px;
+}
+.main_menu > .main_menu_lista {
+    list-style: none;
+}
+.main_menu > .main_menu_lista > li > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 30px 30px;
+    display: block;
+}
+
+.main_menu > .main_menu_lista a:hover {
+    background-color: orange;
+    padding: 28px;
+}
+
+.main_menu > .main_menu_lista {
+    display: flex;
+    column-gap: 2rem;
+}
+/*Contenedor*/
+.main_text {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flow-root;
+}
+.main_text > h1{
+    float: none;
+    text-align: center;
+    padding: 20px 20px;
+    font-style: italic;
+    font-size: 4rem;
+}
+.main_content{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main_content_text{
+    float: left;
+    width: 45%;
+    margin-right: 120px;
+}
+.main_content > .main_content_text >h1 {
+    font-size: 4rem;
+}
+.main_content > .main_content_text >p{
+    font-size: 2rem;
+
+}
+.main_content > .main_content_text >.parrafo1{
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+}
+.main_content > .main_content_text >.parrafo3{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.main_content > .main_content_text >:nth-child(5n){
+    font-weight: 700;
+}
+.main_content > .main_content_text >.main_content_socials{
+    margin-top: 20px;
+    float: left;
+}
+.main_content > .main_content_text >.main_content_socials > img{
+    width: 400px;
+    margin-left: 250px;
+}
+.main_content > .main_content_text >.main_content_socials > p{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+/*form*/
+.main_content > form {
+    width: 40%;
+}
+.main_content > form > fieldset > p{
+    padding: 10px;
+}
+.main_content > form > fieldset{
+    border: none;
+}
+.main_content > form > fieldset > p > input{
+    padding: 15px;
+    width: 100%;
+    font-weight: 700;
+    color: black;
+}
+.main_content > form > fieldset > p > select{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.main_content > form > fieldset > p:nth-child(4n) > input  {
+    height: 90px;
+    text-align: start;
+}
+.main_content > form > fieldset > p > input::placeholder  {
+    color: black;
+}
+.main_content > form > fieldset > input{
+    margin-left: 15px;
+}
+.main_content > form > fieldset > label{
+    margin-left: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.main_content > form > fieldset > a{
+    padding: 10px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 50% / 200%;
+    float: right;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
